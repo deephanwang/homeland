@@ -12,7 +12,6 @@
 @import "search";
 @import "toc";
 @import "highlight";
-@import "~homeland/dark-mode";
 
 .page-topics {
   .navbar-fixed-active {
@@ -619,15 +618,6 @@ hr {
     }
     &.popular {
       background: #ff000005;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      &.light {
-        background: #e9e6ff0d;
-      }
-      &.popular {
-        background: #f7f2fc1c;
-      }
     }
 
     .info {
